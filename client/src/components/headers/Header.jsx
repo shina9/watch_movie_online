@@ -37,7 +37,7 @@ function Header() {
     return (
       <>
         <li className='menu_text'>
-          <Link to='/login' onClick={logoutUser}>
+          <Link to='/' onClick={logoutUser}>
             Logout
           </Link>
         </li>
