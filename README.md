@@ -3,6 +3,7 @@
 ## Web app được deploy trên heroku: https://watch-movie-online-reactjs.herokuapp.com/
 - Account: Trong slide báo cáo
 
+
 ## ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Công nghệ sử dụng trong project:
 - FrondEnd: Reactjs (Material-UI và CSS thuần cho UI)
 - BackEnd: NodeJS - Express
@@ -19,6 +20,7 @@
   - Bình luận và rating phim 
   - Người dùng có thể xóa bình luận của mình, nhưng không thể xóa bình luận của người khác
   - Có thể chia sẻ phim qua facebook
+  - Xem các phim liên quan cùng thể loại
 - ADMIN:
   - Login, Logout
   - Quản lý phim (thêm, sửa, xóa)
