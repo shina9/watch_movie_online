@@ -47,7 +47,7 @@ function DetailMovie() {
     if (d.getElementById(id)) return;
     js = d.createElement(s);
     js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1&version=v3.0";
     fjs.parentNode.insertBefore(js, fjs);
   })(document, "script", "facebook-jssdk");
 
@@ -65,6 +65,7 @@ function DetailMovie() {
       <div>
         <iframe width='1190' height='500' src={detailMovie.content} allowFullScreen></iframe>
       </div>
+      <div class='fb-share-button' data-href={document.URL} data-layout='button_count'></div>
       <div style={{ marginTop: "100px" }}>
         <h1 style={{ textAlign: "center" }}>Comments</h1>
         <p>
@@ -93,7 +94,6 @@ function DetailMovie() {
         })}
       </div>
 
-      <div class='fb-share-button' data-href='encodeURIComponent(location.href)' data-layout='button_count'></div>
       <div style={{ marginTop: "100px" }}>
         <h2>Related movies</h2>
         <div className='movies'>
