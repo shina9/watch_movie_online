@@ -2,7 +2,7 @@
 
 ## Web app được deploy trên heroku: https://watch-movie-online-reactjs.herokuapp.com/
 - Account: Trong slide báo cáo
-
+## author: Trương Văn Thọ
 
 ## ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Công nghệ sử dụng trong project:
 - FrondEnd: Reactjs (Material-UI và CSS thuần cho UI)
@@ -32,4 +32,4 @@
 - Option bật/tắt đèn khi xem phim
 - Tổng hợp rating từ người dùng
 
-## author: tvtho99
+
