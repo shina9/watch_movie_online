@@ -1,5 +1,5 @@
 # watch_movie_online
-## author: tvtho99
+
 ## Web app được deploy trên heroku: https://watch-movie-online-reactjs.herokuapp.com/
 - Account: Trong slide báo cáo
 
@@ -29,3 +29,5 @@
 - Login bằng social 
 - Option bật/tắt đèn khi xem phim
 - Tổng hợp rating từ người dùng
+
+## author: tvtho99
