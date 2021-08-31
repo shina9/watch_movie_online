@@ -11,8 +11,7 @@ const categoryCtrl = {
             return res.status(500).json({ msg: err.message })
         }
     },
-    // nếu user có role là 1 ---> admin
-    // chỉ admin mới có thể chỉnh sửa category
+
     createCategory: async (req, res) => {
         try {
             const { name } = req.body;
