@@ -7,6 +7,8 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "cd client && npm run start",
+    "server-install": "npm install",
+    "client-install": "cd client && npm install",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
@@ -24,8 +26,7 @@
     "express-fileupload": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.1",
-    "react-google-login": "^5.2.2",
-    "react-redux": "^7.2.4"
+    "react-google-login": "^5.2.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
