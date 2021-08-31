@@ -20,7 +20,7 @@
   - Bình luận và rating phim 
   - Người dùng có thể xóa bình luận của mình, nhưng không thể xóa bình luận của người khác
   - Có thể chia sẻ phim qua facebook
-  - Xem các phim liên quan cùng thể loại
+  - Xem các phim cùng thể loại
 - ADMIN:
   - Login, Logout
   - Quản lý phim (thêm, sửa, xóa)
