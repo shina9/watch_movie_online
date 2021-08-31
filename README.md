@@ -1,7 +1,7 @@
 # watch_movie_online
 ## author: tvtho99
 ## Web app được deploy trên heroku: https://watch-movie-online-reactjs.herokuapp.com/
-- ADMIN: admin@gmail.com / 123456
+- ADMIN: admin@gmail.com / pass: 123456
 - USER: (register)
 
 ## ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Công nghệ sử dụng trong project:
