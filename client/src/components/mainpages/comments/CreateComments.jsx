@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import { GlobalState } from "../../../GlobalState";
 import { useParams } from "react-router-dom";
 import { Button } from "@material-ui/core";
+
 import axios from "axios";
 
 function CreateComments() {
@@ -39,16 +40,11 @@ function CreateComments() {
             <h4>Name: {currentUser.name}</h4>
             <label htmlFor='rating'>Rating: </label>
             <select name='rating' value={rating} onChange={(e) => setRating(e.target.value)}>
-              <option value='1'>1</option>
-              <option value='2'>2</option>
-              <option value='3'>3</option>
-              <option value='4'>4</option>
-              <option value='5'>5</option>
-              <option value='6'>6</option>
-              <option value='7'>7</option>
-              <option value='8'>8</option>
-              <option value='9'>9</option>
-              <option value='10'>10</option>
+              <option value='1'>1*</option>
+              <option value='2'>2*</option>
+              <option value='3'>3*</option>
+              <option value='4'>4*</option>
+              <option value='5'>5*</option>
             </select>
             <textarea
               style={{ marginTop: "10px", fontSize: "15px" }}
