@@ -1,0 +1,12 @@
+.bottom-container {
+  margin: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-top: darkblue solid 1px;
+}
+.footer-para {
+  color: red;
+  margin: 0;
+  padding-top: 20px;
+}

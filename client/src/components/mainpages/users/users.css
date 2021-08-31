@@ -1,0 +1,44 @@
+.users {
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+.users form {
+  width: 290px;
+  margin-bottom: 20px;
+}
+.users label {
+  display: block;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.users input,
+button {
+  height: 35px;
+  border: none;
+  outline: none;
+  border: 1px solid #555;
+}
+.users input {
+  width: 210px;
+}
+.users button {
+  width: 70px;
+  color: white;
+  margin-left: 10px;
+}
+.users .row {
+  min-width: 290px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+.users .col h2 {
+  margin-bottom: 10px;
+}

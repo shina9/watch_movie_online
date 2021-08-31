@@ -1,0 +1,40 @@
+.detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-size: 150%;
+}
+.detail img {
+  max-width: 400px;
+  max-height: 550px;
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  object-fit: fill;
+  display: block;
+}
+.box-detail {
+  max-width: 500px;
+  width: 100%;
+  margin: 5px 20px;
+}
+.box-detail .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-detail h3 {
+  text-transform: uppercase;
+  color: red;
+  letter-spacing: 2px;
+  font-weight: 2rem;
+  font-family: "Rampart One", cursive;
+}
+.box-detail p {
+  line-height: 1.5;
+  margin: 10px 0;
+  opacity: 0.8;
+}

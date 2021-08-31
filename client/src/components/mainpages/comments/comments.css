@@ -1,0 +1,16 @@
+.comment_card {
+  margin-top: 30px;
+}
+
+.comment_card h4 {
+  font-family: "Lobster", cursive;
+  font-family: "Manrope", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+}
+.create_comment h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

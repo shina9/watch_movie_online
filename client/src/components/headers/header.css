@@ -1,0 +1,30 @@
+header {
+  min-height: 70px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+header .text {
+  flex: 1;
+}
+header a {
+  text-transform: uppercase;
+  color: #555;
+  font-family: "Inconsolata", monospace;
+  color: #66bfbf;
+}
+header ul li {
+  display: inline-block;
+  opacity: 0.7;
+  padding: 0 20px;
+}
+header ul li:hover {
+  opacity: 1;
+}
+.menu_text {
+  font-size: 22px;
+}
