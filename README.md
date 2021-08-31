@@ -1,5 +1,5 @@
 # watch_movie_online
-#@ author: tvtho99
+## author: tvtho99
 ## Web app được deploy trên heroku: https://watch-movie-online-reactjs.herokuapp.com/
 - ADMIN: admin@gmail.com / 123456
 - USER: (register)
