@@ -3,6 +3,7 @@ const categoryCtrl = require('../controllers/categoryCtrl')
 const auth = require('../middleware/auth')
 const authAdmin = require('../middleware/authAdmin')
 
+// router xử lý categories
 
 router.route('/category')
     .get(categoryCtrl.getCategories)

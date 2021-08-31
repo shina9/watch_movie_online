@@ -1,7 +1,6 @@
 import React, { createContext, useState, useEffect } from "react";
 import MoviesAPI from "./api/MoviesAPI";
 import UserAPI from "./api/UserAPI";
-// import CurrentUserAPI from "./api/CurrentUserAPI";
 import CategoriesAPI from "./api/CategoriesAPI";
 import UsersAPI from "./api/UsersAPI";
 import CommentsAPI from "./api/CommentsAPI";
@@ -23,7 +22,7 @@ export const DataProvider = ({ children }) => {
 
         setTimeout(() => {
           refreshToken();
-        }, 10 * 60 * 1000);
+        }, 10 * 60 * 1000); //10m
       };
       refreshToken();
     }
@@ -35,7 +34,6 @@ export const DataProvider = ({ children }) => {
     userAPI: UserAPI(token),
     categoriesAPI: CategoriesAPI(),
     usersAPI: UsersAPI(),
-    // currentUserAPI: CurrentUserAPI(),
     commentsAPI: CommentsAPI(),
   };
 

@@ -1,7 +1,9 @@
 const router = require('express').Router()
 const userCtrl = require('../controllers/userCtrl')
 const auth = require('../middleware/auth')
-const authAdmin = require('../middleware/authAdmin')
+
+
+//router xử lý current user
 
 router.post('/register', userCtrl.register)
 

@@ -3,6 +3,7 @@ const movieCtrl = require('../controllers/movieCtrl')
 const auth = require('../middleware/auth')
 const authAdmin = require('../middleware/authAdmin')
 
+//router xử lý movies
 
 router.route('/movies')
     .get(movieCtrl.getMovies)

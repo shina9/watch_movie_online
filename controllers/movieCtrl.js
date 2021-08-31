@@ -6,7 +6,7 @@ class APIfeatures {
         this.query = query;
         this.queryString = queryString;
     }
-
+    // tìm kiếm
     filtering() {
         const queryObj = { ...this.queryString } //queryString = req.query
 
@@ -19,7 +19,7 @@ class APIfeatures {
 
         return this;
     }
-
+    // sắp xếp
     sorting() {
         if (this.queryString.sort) {
             const sortBy = this.queryString.sort.split(',').join(' ')
@@ -30,7 +30,7 @@ class APIfeatures {
 
         return this;
     }
-
+    // đánh số trang
     paginating() {
         const page = this.queryString.page * 1 || 1
         const limit = this.queryString.limit * 1 || 9
@@ -97,29 +97,7 @@ const movieCtrl = {
             return res.status(500).json({ msg: err.message })
         }
     },
-    reviews: async (req, res) => {
-        try {
-            const { rating } = req.body
 
-            if (rating && rating !== 0) {
-                const movie = await Movies.findById(req.params.id)
-                if (!movie) return res.status(400).json({ msg: 'Movie does not exist.' })
-
-                let num = movie.numReviews
-                let rate = movie.rating
-
-                await Movies.findOneAndUpdate({ _id: req.params.id }, {
-                    rating: rate + rating, numReviews: num + 1
-                })
-
-                res.json({ msg: 'Update successfully' })
-
-            }
-
-        } catch (err) {
-            return res.status(500).json({ msg: err.message })
-        }
-    }
 }
 
 

@@ -3,6 +3,8 @@ const userCtrl = require('../controllers/userCtrl')
 const auth = require('../middleware/auth')
 const authAdmin = require('../middleware/authAdmin')
 
+// router lấy users list và xóa users
+
 router.route('/users')
     .get(userCtrl.getUsers)
 

@@ -3,6 +3,10 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
 const userCtrl = {
+    // user role mặc định = 0
+    // nếu user có role = 1 ---> admin
+    // chỉ admin mới có thể quản lý movie, cate, user
+
     register: async (req, res) => {
         try {
             const { name, email, password } = req.body;
@@ -89,6 +93,8 @@ const userCtrl = {
         }
 
     },
+
+    // ctrl xử lý current user
     getUser: async (req, res) => {
         try {
             const user = await Users.findById(req.user.id).select('-password')
@@ -100,6 +106,8 @@ const userCtrl = {
             return res.status(500).json({ msg: err.message })
         }
     },
+
+    // ctrl lấy users list từ DB
 
     getUsers: async (req, res) => {
         try {
